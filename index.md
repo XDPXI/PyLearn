@@ -13,7 +13,7 @@ hero:
       text: GitHub
       link: https://github.com/XDPXI/PyLearn
   image:
-    src: /python.svg
+    src: https://raw.githubusercontent.com/XDPXI/PyLearn/website/python.svg
     alt: Python Logo
 ---
 
