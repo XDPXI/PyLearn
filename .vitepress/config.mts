@@ -6,13 +6,13 @@ export default defineConfig({
     head: [["link", {
         rel: "icon",
         sizes: "64x64",
-        href: "/python.svg"
+        href: "https://raw.githubusercontent.com/XDPXI/PyLearn/website/python.svg"
     }]],
     lastUpdated: true,
     metaChunk: true,
     cleanUrls: true,
     themeConfig: {
-        logo: '/python.svg',
+        logo: 'https://raw.githubusercontent.com/XDPXI/PyLearn/website/python.svg',
 
         nav: [
             {text: 'Home', link: '/'},
