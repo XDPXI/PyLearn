@@ -17,6 +17,7 @@ export default defineConfig({
         nav: [
             {text: 'Home', link: '/'},
             {text: 'Documentation', link: '/docs/getting-started/setting-up', activeMatch: '/docs/'},
+            {text: 'Examples', link: 'https://github.com/XDPXI/PyLearn/tree/main/Examples'},
         ],
 
         sidebar: [
