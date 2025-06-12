@@ -3,10 +3,17 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "PyLearn",
   description: "PyLearn is a documentation site and a tutorial repository.",
+  head: [["link", {
+    rel: "icon",
+    sizes: "64x64",
+    href: "/python.svg"
+  }]],
   lastUpdated: true,
   metaChunk: true,
   cleanUrls: true,
   themeConfig: {
+    logo: '/python.svg',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/docs/getting-started/setting-up', activeMatch: '/docs/' },
