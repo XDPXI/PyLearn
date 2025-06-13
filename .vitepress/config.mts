@@ -22,12 +22,22 @@ export default defineConfig({
 
         sidebar: [
             {
+                text: 'Links',
+                items: [
+                    {text: 'Python', link: 'https://python.org'},
+                    {text: 'GitHub', link: 'https://github.com/XDPXI/PyLearn'},
+                    {text: 'Examples', link: 'https://github.com/XDPXI/PyLearn/tree/main/Examples'},
+                ],
+                collapsed: false,
+            },
+            {
                 text: 'Getting Started',
                 items: [
                     {text: 'Installing Python', link: '/docs/getting-started/installing'},
                     {text: 'Choosing an IDE', link: '/docs/getting-started/choosing-an-ide'},
                     {text: 'Setting Up', link: '/docs/getting-started/setting-up'},
                 ],
+                collapsed: false,
             },
             {
                 text: 'The Basics',
@@ -38,6 +48,7 @@ export default defineConfig({
                     {text: 'Loops', link: '/docs/basics/loops'},
                     {text: 'Functions', link: '/docs/basics/functions'},
                 ],
+                collapsed: true,
             },
         ],
 
