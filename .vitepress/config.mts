@@ -27,8 +27,18 @@ export default defineConfig({
                     {text: 'Installing Python', link: '/docs/getting-started/installing'},
                     {text: 'Choosing an IDE', link: '/docs/getting-started/choosing-an-ide'},
                     {text: 'Setting Up', link: '/docs/getting-started/setting-up'},
-                ]
-            }
+                ],
+            },
+            {
+                text: 'The Basics',
+                items: [
+                    {text: 'Print', link: '/docs/basics/print'},
+                    {text: 'Variables', link: '/docs/basics/variables'},
+                    {text: 'Input', link: '/docs/basics/input'},
+                    {text: 'Loops', link: '/docs/basics/loops'},
+                    {text: 'Functions', link: '/docs/basics/functions'},
+                ],
+            },
         ],
 
         socialLinks: [
