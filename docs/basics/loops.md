@@ -1,7 +1,9 @@
 # Loops
 
 ## While True
+
 `while True:` loops last forever until you call `break`
+
 ```py
 while True: # This loop will continue indefinitely
     x = input("Enter anything: ") # Get any input from the user
@@ -13,6 +15,7 @@ while True: # This loop will continue indefinitely
 ## While Variable
 
 For while loops using a variable you have to call a variable and set it to true before you call the loop. Example:
+
 ```py
 running = True # Set a flag to keep the loop running
 while running: # This loop will continue until the flag is set to False
