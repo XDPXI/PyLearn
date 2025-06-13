@@ -47,6 +47,7 @@ export default defineConfig({
                     {text: 'Input', link: '/docs/beginner/input'},
                     {text: 'Loops', link: '/docs/beginner/loops'},
                     {text: 'Functions', link: '/docs/beginner/functions'},
+                    {text: 'Error Handling', link: '/docs/beginner/error-handling'},
                 ],
                 collapsed: true,
             },
