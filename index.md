@@ -10,10 +10,9 @@ hero:
       text: Documentation
       link: /docs/getting-started/setting-up
     - theme: alt
-      text: GitHub
-      link: https://github.com/XDPXI/PyLearn
+      text: Examples
+      link: https://github.com/XDPXI/PyLearn/tree/main/Examples
   image:
     src: https://raw.githubusercontent.com/XDPXI/PyLearn/website/python.svg
     alt: Python Logo
 ---
-
