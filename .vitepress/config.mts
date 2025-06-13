@@ -40,13 +40,27 @@ export default defineConfig({
                 collapsed: false,
             },
             {
-                text: 'The Basics',
+                text: 'Beginner',
                 items: [
-                    {text: 'Print', link: '/docs/basics/print'},
-                    {text: 'Variables', link: '/docs/basics/variables'},
-                    {text: 'Input', link: '/docs/basics/input'},
-                    {text: 'Loops', link: '/docs/basics/loops'},
-                    {text: 'Functions', link: '/docs/basics/functions'},
+                    {text: 'Print', link: '/docs/beginner/print'},
+                    {text: 'Variables', link: '/docs/beginner/variables'},
+                    {text: 'Input', link: '/docs/beginner/input'},
+                    {text: 'Loops', link: '/docs/beginner/loops'},
+                    {text: 'Functions', link: '/docs/beginner/functions'},
+                ],
+                collapsed: true,
+            },
+            {
+                text: 'Advanced',
+                items: [
+
+                ],
+                collapsed: true,
+            },
+            {
+                text: 'Intermediate',
+                items: [
+
                 ],
                 collapsed: true,
             },
