@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "PyLearn"
   text: ""
-  tagline: PyLearn is a python documentation site and example repository.
+  tagline: PyLearn is a documentation and example repo for Python
   actions:
     - theme: brand
       text: Documentation
