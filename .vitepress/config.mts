@@ -53,16 +53,12 @@ export default defineConfig({
             },
             {
                 text: 'Advanced',
-                items: [
-
-                ],
+                items: [],
                 collapsed: true,
             },
             {
                 text: 'Intermediate',
-                items: [
-
-                ],
+                items: [],
                 collapsed: true,
             },
         ],
